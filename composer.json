@@ -1,0 +1,27 @@
+{
+    "name": "vladvildanov/playground_build",
+    "description": "Test package",
+    "autoload": {
+        "psr-4": {
+            "Vladvildanov\\PlaygroundBuild\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vladvildanov",
+            "email": "divinez122@outlook.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "github",
+            "url": "git@github.com:chayim/playground.git"
+        }
+    ],
+    "require": {
+        "chayim/playground": "dev-vv-php-bridge"
+    },
+    "scripts": {
+        "build": ["./build.sh"]
+    }
+}
