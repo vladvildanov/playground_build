@@ -1,0 +1,3 @@
+[submodule "vendor/chayim/libredis"]
+	path = vendor/chayim/libredis
+	url = https://github.com/chayim/playground
